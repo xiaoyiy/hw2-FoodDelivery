@@ -1,0 +1,15 @@
+server:
+  port: 9007
+
+spring:
+  application:
+    name: Payment-Process-Service
+  datasource:
+      url: jdbc:mysql://localhost:3307/payment-db
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+    jpa:
+      generate-ddl: true
+      hibernate:
+        ddl-auto: create

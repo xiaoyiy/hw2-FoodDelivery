@@ -1,0 +1,18 @@
+{
+  "restaurantId":1,
+  "user":"xiaoyi",
+  "address":"123 Main St, Los Angeles, CA 90001",
+  "note":"extra salt please",
+  "orderItems":[
+    {
+      "itemName":"rice",
+      "unitPrice":2.0,
+      "quantity":2
+    },
+    {
+      "itemName":"noodle",
+      "unitPrice":3.0,
+      "quantity":1
+    }
+  ]
+}

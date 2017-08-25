@@ -1,0 +1,15 @@
+[  
+  {  
+    "restaurantName":"ABC Seafood",
+    "menu":[  
+      {  
+        "itemName":"rice",
+        "unitPrice":2.0
+      },
+      {  
+        "itemName":"noodle",
+        "unitPrice":3.0
+      }
+    ]
+  }
+]
