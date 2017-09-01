@@ -1,11 +1,13 @@
-package com;
+package eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-public class RestaurantInfoService {
+@EnableEurekaServer
+public class EurekaApplication {
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(RestaurantInfoService.class, args);
+        SpringApplication.run(EurekaApplication.class, args);
     }
 }

@@ -20,6 +20,7 @@
         <module>Restaurant-Info-Service</module>
         <module>Order-Management-Service</module>
         <module>Payment-Process-Service</module>
+        <module>platform</module>
     </modules>
 
     <properties>

@@ -11,5 +11,31 @@
         "unitPrice":3.0
       }
     ]
+  },
+  {  
+    "restaurantName":"BCD Tofu",
+    "menu":[  
+      {  
+        "itemName":"rice1",
+        "unitPrice":2.0
+      },
+      {  
+        "itemName":"noodle1",
+        "unitPrice":3.0
+      }
+    ]
+  },
+  {  
+    "restaurantName":"CDE Food",
+    "menu":[  
+      {  
+        "itemName":"rice2",
+        "unitPrice":2.0
+      },
+      {  
+        "itemName":"noodle2",
+        "unitPrice":3.0
+      }
+    ]
   }
 ]

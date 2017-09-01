@@ -3,6 +3,6 @@
   "cardNumber":"4111111111111111",
   "cardHolder":"jason smith",
   "expiration":"0122",
-  "csv":"123",
+  "cvv":"123",
   "amount":10
 }

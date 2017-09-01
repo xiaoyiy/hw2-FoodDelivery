@@ -9,7 +9,11 @@ spring:
       username: root
       password: root
       driver-class-name: com.mysql.jdbc.Driver
-    jpa:
-      generate-ddl: true
-      hibernate:
-        ddl-auto: create
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+  cloud:
+    stream:
+      bindings:
+        output: payments

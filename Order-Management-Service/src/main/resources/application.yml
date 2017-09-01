@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: Order-Management-Service
+  cloud:
+    stream:
+      bindings:
+        input: payments
